@@ -1,5 +1,13 @@
 ### Home Slice Home Automation Server
 
-####Pre-Commit Tests
+#### Dependencies
+
+Ruby/Bundler
+
+Mongodb
+
+#### Pre-Commit Tests
+
 rubocop
+
 rspec
