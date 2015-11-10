@@ -1,5 +1,5 @@
 AllCops:
-  RunRailsCop: true
+  RunRailsCops: true
   Exclude:
     - 'bin/**/*'
 
