@@ -6,8 +6,5 @@ Ruby/Bundler
 
 Mongodb
 
-#### Pre-Commit Tests
-
-rubocop
-
-rspec
+#### Contributing
+Before committing run rake and ensure all tests pass
