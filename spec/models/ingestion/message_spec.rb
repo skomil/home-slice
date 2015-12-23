@@ -1,6 +1,13 @@
 require 'rails_helper'
 
 describe Ingestion::Message, type: :model do
+  before do
+    imap = double('imap')
+    allow(Net::IMAP).to receive(:new).and_return(imap)
+    allow(imap).to receive(:login)
+    allow(imap).to receive(:disconnected?).and_return false
+  end
+
   describe 'open_connection' do
     it 'connects to an email server' do
       subject = Ingestion::Message.new
