@@ -17,6 +17,7 @@
 /tmp
 # Ignore doc files
 /doc
+/.yardoc
 
 # Igmore IDE files
 /.idea

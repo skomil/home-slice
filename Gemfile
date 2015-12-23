@@ -37,6 +37,7 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails', '~> 3.3.0'
   gem 'rubocop', '~> 0.35.0', require: false
+  gem 'cucumber-rails', '~> 1.4.0', require: false
 end
 
 group :development do
