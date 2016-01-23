@@ -10,5 +10,7 @@ Style/BlockComments:
 
 Metrics/LineLength:
   Max: 119
+Metrics/MethodLength:
+  Max: 15
 Documentation:
   Enabled: true

@@ -38,6 +38,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.3.0'
   gem 'rubocop', '~> 0.35.0', require: false
   gem 'cucumber-rails', '~> 1.4.0', require: false
+  gem 'database_cleaner'
 end
 
 group :development do

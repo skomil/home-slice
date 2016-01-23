@@ -15,6 +15,10 @@ connection to this server
 HOME_SLICE_MSG_SERVER={Imap Server Address}
 HOME_SLICE_MSG_USERNAME={Imap Server Username}
 HOME_SLICE_MSG_PASSWORD={Imap Server Password}
+
+HOME_SLICE_TEST_MSG_SERVER={Imap Test Server Address}
+HOME_SLICE_TEST_MSG_USERNAME={Imap Test Server Username}
+HOME_SLICE_TEST_MSG_PASSWORD={Imap Test Server Password}
 ```
 #### Contributing
 Before committing run rake and ensure all tests pass

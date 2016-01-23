@@ -21,3 +21,4 @@
 
 # Igmore IDE files
 /.idea
+*.iml
